@@ -9,3 +9,10 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+
+
+
+
+              - name: ZAP Full Scan
+                uses: zaproxy/action-full-scan@v0.10.0
+            
